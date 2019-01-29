@@ -1,6 +1,6 @@
 /*
     INTRO:
-    a simple golf solitaire game, written for nokia 5110 display and a 3.3v pro mini controller, by Echo Liu
+    a simple golf solitaire game, written for nokia 5110 display and a 3.3v pro mini controller
     version 0.1
     2019.1.27
 
