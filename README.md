@@ -1,6 +1,8 @@
 # arduino-golf-solitaire
 a simple golf solitaire game (with "wrapping", Ace on a King, or King on an Ace), written for nokia 5110 display and a 3.3v pro mini controller. Inspired by pocket card jockey by game freak.
 
+(it is my 2nd major arduino project and my first github repo, the codes are bond to be a bit messy so pardon me)
+
 my working prototype:
 
 ![the prototype](https://github.com/echodoomyou/arduino-golf-solitaire/blob/master/prototype/prototype.jpg)
