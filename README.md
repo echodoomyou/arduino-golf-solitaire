@@ -46,6 +46,21 @@ pin A0--->pro mini RST
 
 pin 10-13--->4 push buttons then to GND
 
+## game rules
+
+https://en.wikipedia.org/wiki/Golf_(patience) but with "wrapping" (Ace on a King, or King on an Ace).
+
+## scores
+
+see ScoreKeeping() and EndGame(). basically:
+
+* faster plays get more scores
+* consective plays get more scores
+* bonus points for unrevealed cards when the deck(table) is cleared
+
+(for the moment my best score is 743.)
+
+
 ## notes and limitations
 
 * display part of the code is written from ground up to save some space, instead of using lib like u8g2
@@ -55,3 +70,7 @@ pin 10-13--->4 push buttons then to GND
 * part of the code of EEPROM reading and writing int type data is from https://www.instructables.com/id/two-ways-to-reset-arduino-in-software/
 * number might be a bit small but to accomadate the small display, a 2 pixel width number font is created, might need to get used to
 * Sketch uses 5420 bytes (17%) of program storage space. Maximum is 30720 bytes. Global variables use 409 bytes (19%) of dynamic memory, leaving 1639 bytes for local variables. Maximum is 2048 bytes.
+
+## future updates
+* rewrite parts of the code to use hardware SPI
+* try other type of software debouncing, current performance can be improved
