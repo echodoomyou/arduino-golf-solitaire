@@ -8,6 +8,7 @@ my working prototype:
 ![the prototype](https://github.com/echodoomyou/arduino-golf-solitaire/blob/master/prototype/prototype.jpg)
 
 version 0.1 
+
 1/27/19
 
 ## features
