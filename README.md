@@ -75,5 +75,5 @@ see ScoreKeeping() and EndGame(). basically:
 * Sketch uses 5420 bytes (17%) of program storage space. Maximum is 30720 bytes. Global variables use 409 bytes (19%) of dynamic memory, leaving 1639 bytes for local variables. Maximum is 2048 bytes.
 
 ## future updates
-* rewrite parts of the code to use hardware SPI
-* try other type of software debouncing, current performance can be improved
+* rewrite parts of the code to utilize hardware SPI
+* try other types of software debouncing, current performance can be improved
